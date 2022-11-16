@@ -1,0 +1,48 @@
+
+
+import java.util.Scanner;
+
+public class grading {
+
+	public static void main(String []args) {
+Scanner sc=new Scanner(System.in);
+int  CGPA;
+int age;
+int Working_experience;
+
+System.out.println("Enter your CGPA");
+CGPA =sc.nextInt();
+System.out.println("Enter your working experience in years:");
+Working_experience = sc.nextInt();
+System.out.println("Enter your age");
+age =sc.nextInt();
+
+
+
+
+if(CGPA >= 4.5 && Working_experience>=20) {	
+System.out.println("You quallify to be a lecturer;");	
+}
+else  if(Working_experience <20){
+	System.out.println("Go back and get the required qualifications");
+}
+
+if(Working_experience>=20) {
+	System.out.println("You are to get shs 2000,000 per month");
+}else {}
+System.out.println("You are to get shs 1000000 per month");
+	  
+  
+  if(age>=30) {
+	  System.out.println("Eligible for lecturing");
+  }
+  
+  else{
+	  System .out.println("not qualified");
+	  }
+  
+  
+  }
+	}
+
+
